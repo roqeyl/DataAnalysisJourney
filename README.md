@@ -98,12 +98,12 @@ Furthermore on
 
 Last but not least, I learned on the **Comparison, Logical and Membership Operators** which are the:
 
- 1. == : Equal
- 2. != : Not Equal
- 3. >  : Greater Than
- 4. <  : Less Than
- 5. >= : Greater Than or Equal To
- 6. <= : Less Than or Equal To
+ 1. (==) : Equal
+ 2. (!=) : Not Equal
+ 3. (>)  : Greater Than
+ 4. (<)  : Less Than
+ 5. (>=) : Greater Than or Equal To
+ 6. (<=) : Less Than or Equal To
 
 1. **Logical Operators**
  and :(returns true if both statements are true)
@@ -113,3 +113,7 @@ Last but not least, I learned on the **Comparison, Logical and Membership Operat
 2. **Membership Operator**
 in (returns true if a sequence with the specified value is present in the object)
 not in (returns true if a sequence with the specified value is not present in the object)
+
+
+### 6. 15/09/2025
+On this day I continue to learn from the Alex Freeberg (Alex the Analyst) on YouTube on the **Python** tutorials using Jupyter Notebook. First I learned on the **IF,ELSE Statement**, which the concept is similar to other programming languages that I've learned before such as Java and C++. Next, I learned on the **FOR & WHILE Loops** which is a loop that will iterate until a condition is met. Moreover, I learned on how to create **Functions** in Python which is a very important part to learn in Python as it can be reusable to avoid writing the same block of code over and over again. Furthermore, I learned on how to **Conver Data Types** in Python which is quite easy for me to change data types between **strings, intergers, long strings, lists, sets, tuple and dictionary**. Last but not least, I built a simple BMI Calculator with Python using all that's I've learned so far throughout the bootcamp, I mean the BMI calculator is just the most basic thing I can build using Python giving that I'm a beginner, but I'm looking forward to the next lesson on Python and how can it be used for Data Analysis.
