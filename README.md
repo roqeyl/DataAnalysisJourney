@@ -17,29 +17,70 @@ This is my self-learning journey in Data Analysis. I believe anything can be lea
 
 # 🚀 Projects  
 
-### 🔹 SQL – Data Cleaning Project (MySQL)  
-- Removed duplicates, standardized data, handled null/blank values  
-- Cleaned messy survey dataset and prepared it for analysis  
+### MySQL – Layoffs Exploratory Data Analysis  
+- Conducted **EDA in MySQL** on a layoffs dataset (2020–2023), covering over 380,000 reported layoffs across industries.  
+- **Key analyses performed**:  
+  - 🔎 **Identified extremes**: maximum single-day layoffs (12,000 at once) and companies with 100% layoffs (complete shutdowns).  
+  - 📊 **Company-level summaries**: Grouped by company to see total layoffs; highlighted tech giants like Amazon, Google, Meta, and Microsoft.  
+  - 🌍 **Country breakdown**: Found the US had the highest reported layoffs (~256,000), followed by India and European countries.  
+  - 🏢 **Industry trends**: Retail and Consumer sectors were most affected, while Aerospace and Legal saw the least.  
+  - 📆 **Time analysis**: Aggregated layoffs by year/month, revealing 2022 as the worst year and 2023 trending even higher in just 3 months.  
+  - 📈 **Rolling totals**: Built a rolling monthly cumulative layoffs metric using CTEs and window functions.  
+  - 🏆 **Ranked layoffs per year**: Used **CTEs + dense ranking** to identify the top 5 companies with the largest layoffs each year.  
+- **Findings**: Tech companies dominated the largest layoffs; COVID-19 and post-IPO companies were major drivers; 2023 showed early signs of surpassing prior years.  
+- **Skills practiced**: SQL (CTEs, Window Functions, Aggregations, Ranking, Substring), Exploratory Data Analysis, Business Insight Generation.  
 
-### 🔹 Excel – Dashboard Project  
-- Cleaned datasets in Excel  
-- Used Pivot Tables, Formulas, and Conditional Formatting  
-- Built an **interactive dashboard** with charts  
+### Excel – Bike Buyers Dashboard  
+- Built a complete **Excel dashboard project** from raw data to insights using the **Bike Buyers dataset**.  
+- **Data Cleaning** steps:  
+  - Removed duplicates to ensure clean data.  
+  - Standardized categorical values (e.g., “M/F” → “Male/Female”, “S/M” → “Single/Married”).  
+  - Created **Age Brackets** (Adolescent, Middle Age, Old) using nested IF formulas for easier analysis.  
+- Designed multiple **Pivot Tables & Charts** to answer business questions:  
+  - 📊 **Average Income by Gender & Purchase** – compared buying decisions across demographics.  
+  - 🚲 **Commute Distance vs Purchase Decision** – explored how distance impacts likelihood of bike buying.  
+  - 👥 **Customer Age Brackets** – analyzed purchase trends across age groups.  
+- Built an interactive **dashboard** with:  
+  - Clean layout, formatting, and aligned visuals.  
+  - **Slicers** (filters) for marital status, region, and education to dynamically explore insights.  
+- Findings: Married individuals with higher income were more likely to purchase bikes; customers aged **31–54** had the highest purchase rate; and shorter commute distances correlated with more bike purchases.  
+- **Skills practiced**: Excel, Data Cleaning, Pivot Tables, Dashboard Design, Slicers/Filters, Business Insights.  
 
-### 🔹 Tableau – Data Visualization Project  
-- Imported & prepared dataset  
-- Built Calculated Fields, Joins, Bins  
-- Designed **visual dashboards** (bar, line, density maps)  
+### Tableau – Airbnb Seattle Dashboard  
+- Built an **interactive Tableau dashboard** using the **Seattle Airbnb Open Data** (2016).  
+- Combined multiple datasets (**Listings, Calendar, Reviews**) with proper **joins** (Listing ID ↔ Listing ID) to ensure data consistency.  
+- Defined a **business use case**: helping an investor identify the best Airbnb opportunities based on location, seasonality, and property size.  
+- Designed multiple **visualizations**:  
+  - 📍 **Price by Zip Code** – comparing average rental prices across neighborhoods.  
+  - 🗺️ **Map View** – geographical breakdown of average daily rates per zip code.  
+  - 📆 **Revenue Over Time** – seasonal trends showing peak demand periods (summer & holidays).  
+  - 🛏️ **Average Price by Bedrooms** – relationship between property size and pricing.  
+  - 📊 **Count of Listings by Bedrooms** – competition analysis across property sizes.  
+- Published a final **Tableau dashboard** that allows interactive filtering and insight exploration.  
+- **Skills practiced**: Tableau, Joins, Data Cleaning, Time Series Analysis, Geospatial Visualization, Dashboard Design.  
 
-### 🔹 Power BI – LinkedIn Survey Analysis  
-- Cleaned raw survey dataset (600–700 respondents)  
-- Created interactive dashboards with DAX and Power Query  
-- Delivered insights from visualization & filtering  
+### Power BI – Data Professional Survey Dashboard  
+- Built a **Power BI dashboard** using a real survey dataset from **600–700 data professionals** collected via LinkedIn/Twitter.  
+- Performed **data cleaning & transformation** in **Power Query**, including:  
+  - Removing unnecessary columns and simplifying categorical variables (Job Titles, Programming Languages, Industry, Country).  
+  - Transforming **Yearly Salary ranges** into numeric averages for better aggregation.  
+  - Standardizing free-text responses into grouped categories for consistency.  
+- Designed multiple **interactive visualizations**:  
+  - 📊 **Average Salary by Job Title** (Data Analyst, Engineer, Scientist, Architect, etc.).  
+  - 📈 **Favorite Programming Languages** (Python, R, SQL, etc.).  
+  - 🌍 **Survey Takers by Country** with filters impacting all charts.  
+  - 😊 **Happiness Gauges** (Work-life Balance, Salary Satisfaction).  
+  - 🧩 **Difficulty of Breaking into Data** distribution.  
+  - 👥 **Average Salary by Gender** comparison.  
+- Customized dashboard with a clear theme, titles, and layout to make insights **readable and presentation-ready**.  
+- **Skills practiced**: Power BI, Power Query, DAX basics, Data Cleaning, Dashboard Design, Data Visualization.  
 
-### 🔹 Python – Web Scraping Project  
-- Scraped **Wikipedia: Largest US Companies by Revenue**  
-- Extracted HTML tables using BeautifulSoup + Requests  
-- Converted to Pandas DataFrame → Exported to CSV  
+### Web Scraping Wikipedia – Largest US Companies by Revenue  
+- Built a **Python web scraping project** using **BeautifulSoup + Requests** to extract data from [Wikipedia’s Largest US Companies by Revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue).  
+- Collected **table headers** (Rank, Name, Industry, Revenue, Employees, Headquarters) and parsed row data (`tr`/`td`) into a **structured Pandas DataFrame**.  
+- Cleaned and standardized the dataset by handling extra tags, whitespace, and formatting issues.  
+- Exported the final DataFrame to a **CSV file** for further analysis and visualization.  
+- **Skills practiced**: Web Scraping, BeautifulSoup, Requests, Pandas, Data Cleaning, CSV Export.  
 
 ---
 
@@ -111,7 +152,7 @@ Started **Tableau**:
 
 ---
 
-### 6. 06/09/2025 (Python Basics)  
+### 6. 07/09/2025 (Python Basics)  
 ✅ Learned:  
 - Variables & Naming Conventions  
 - Data Types (Numeric, Sequence, Boolean, Sets, Dictionary)  
@@ -155,11 +196,8 @@ Started **Tableau**:
 - `groupby()` with mean, count, min, max, sum  
 - `.agg()` for multiple aggregations  
 - Grouping by multiple columns  
-- `.describe()` for quick statistical summaries  
-
----
-
-### 11. 23/09/2025 (Merging DataFrames)  
+- `.describe()` for quick statistical summaries
+- 
 ✅ Learned:  
 - `merge()` (inner, outer, left, right joins)  
 - `concat()` to stack DataFrames  
