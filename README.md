@@ -7,9 +7,8 @@ I'm Danish, a final year student in **Bachelor Degree in Computer Science (Compu
 # 🤖 About Me 🤖  
 
 * 💻 Major in Computer Network  
-* 📊 Preparing for internship in **Data Analysis**  
+* 📊 Preparing for internship 
 * 🆕 Currently learning **Python, SQL, Tableau, Power BI, and Pandas**  
-* 🎯 Goal: Transition into **Data Analytics** and secure a full-time job after internship  
 
 This is my self-learning journey in Data Analysis. I believe anything can be learned with enough time and practice. 💪  
 
