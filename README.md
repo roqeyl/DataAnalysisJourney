@@ -220,7 +220,7 @@ Started **Tableau**:
 - Resetting index  
 
 ---
-11. 23/09/2025 (Exploratory Data Analysis in Pandas)
+### 11. 23/09/2025 (Exploratory Data Analysis in Pandas)
 
 ✅ Learned:
 - .info() & .describe() for dataset overview  
