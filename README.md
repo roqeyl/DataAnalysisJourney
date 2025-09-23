@@ -220,4 +220,17 @@ Started **Tableau**:
 - Resetting index  
 
 ---
+11. 23/09/2025 (Exploratory Data Analysis in Pandas)
 
+✅ Learned:
+- .info() & .describe() for dataset overview  
+- Checking missing values with .isnull().sum()  
+- .nunique() for unique counts  
+- Sorting with .sort_values() (largest/smallest populations)  
+- Correlations with .corr() + Heatmap (Seaborn)  
+
+✅ Grouping & Visualization:
+- groupby() by continent for population trends  
+- Transposed data to plot population growth (1970–2022)  
+- Boxplots for outlier detection  
+- select_dtypes() to filter numeric vs object columns  
