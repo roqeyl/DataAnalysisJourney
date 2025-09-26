@@ -6,7 +6,7 @@ I'm Danish, a final year student in **Bachelor Degree in Computer Science (Compu
 
 # 🤖 About Me 🤖  
 
-* 💻 Major in Computer Network  
+* 💻 Major in Computer Science (Computer Network)  
 * 📊 Preparing for internship 
 * 🆕 Currently learning **Python, SQL, Tableau, Power BI, and Pandas**  
 
