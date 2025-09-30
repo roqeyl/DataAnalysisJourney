@@ -233,4 +233,73 @@ Started **Tableau**:
 - groupby() by continent for population trends  
 - Transposed data to plot population growth (1970–2022)  
 - Boxplots for outlier detection  
-- select_dtypes() to filter numeric vs object columns  
+- select_dtypes() to filter numeric vs object columns
+
+### 12. 24/09/2025 (Azure Storage Accounts & Blob Storage)
+
+✅ Learned:
+- Creating Azure Storage Accounts
+- Regions, redundancy (LRS, GRS, ZRS, GZRS)
+- Blob Containers for structured/unstructured data
+- Access tiers: Hot, Cool, Cold, Archive
+- Role assignments & access control (IAM)
+
+📌 Practice:
+- Uploaded multiple file types (CSV, PNG, Notebook) into Blob Storage
+- Tested Hot vs Archive tier retrieval
+
+### 13. 25/09/2025 (Azure SQL Database)
+
+✅ Learned:
+- Creating Azure SQL Databases & Servers
+- Authentication methods (Entra ID, SQL Login)
+- Connecting with Azure Data Studio
+- Public network access & firewall rules
+- Creating tables, inserting data, running queries
+
+📌 Practice:
+- Built sample database & queried data with SQL
+- Linked Azure SQL to external tools (Azure Data Studio, Power BI integration)
+
+### 14. 26/09/2025 (Azure Data Factory)
+
+✅ Learned:
+- Data ingestion from SQL → Blob Storage
+- Pipelines, datasets, linked services
+- Access control with Managed Identity
+- Data transformations (filter, aggregate, joins)
+- Debug mode & data preview
+
+📌 Practice:
+- Created pipeline: Azure SQL → Blob Storage CSV
+- Built transformation flow to filter rows by State Name
+- Outputted cleaned data to Blob Storage
+
+### 15. 27/09/2025 (Azure Synapse Analytics)
+
+✅ Learned:
+- Creating Synapse workspace with Data Lake Gen2
+- SQL queries & notebooks (PySpark + SQL magic)
+- Data ingestion from Blob Storage
+- Visualization with Synapse charts
+- Pipelines inside Synapse (similar to Data Factory)
+
+📌 Practice:
+- Queried NYC safety dataset & grouped results
+- Visualized SQL output as bar chart
+- Published SQL scripts & notebooks
+- Moved files using Synapse copy pipeline
+
+### 16. 28/09/2025 (AWS S3 Buckets)
+
+✅ Learned:
+- Creating & configuring S3 buckets
+- Storage classes: Standard, Intelligent-Tiering, One Zone IA, Glacier
+- Bucket policies & IAM permissions
+- Uploading, retrieving, and managing data
+- Versioning & lifecycle policies
+
+📌 Practice:
+- Uploaded CSV datasets into S3
+- Set lifecycle policy (move to Glacier after 30 days)
+- Tested permissions using IAM roles
